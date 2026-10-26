@@ -26,6 +26,11 @@ Requirements, configuration, scripting, testing, and documentation (solo).
 Built on the out-of-box **Incident** table in the Global scope, tracked in an
 update set.
 
+### 3. Client Script: Validate asset tag format
+- onChange script on Asset tag
+- Checks the value matches `IT-` plus 5 digits, using a regular expression
+- Shows an inline error message if the format is wrong
+- 
 ### 1. New fields on Incident
 - **Affected device** (choice: Laptop, Desktop, Phone, Printer, Other)
 - **Asset tag** (string)
@@ -40,6 +45,7 @@ update set.
 |-----------|------|-----|
 | New fields on Incident | Configuration | Standard dictionary fields; upgrade-safe |
 | UI Policy | Configuration | No-code; preferred over a Client Script for show/hide/mandatory |
+| Client Script | Custom | Format validation needs logic a UI Policy can't do |
 
 ## Screenshots
 **Incident form with new hardware fields**
@@ -50,6 +56,12 @@ update set.
 
 **UI Policy test: fields mandatory when Category is Hardware**
 ![Incident form showing mandatory hardware fields](screenshots/03-ui-policy-test.png)
+
+**Client Script: condition and actions**
+![Client Script record, showing the settings and the code](screenshots/04-client-script.png)
+
+**Client Script test: fields mandatory when Category is Hardware**
+![Incident form showing the red error under Asset tag](screenshots/05-client-script-test.png)
 
 ## Results
 *(To be completed when the project is finished.)*
