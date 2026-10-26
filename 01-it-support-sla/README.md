@@ -30,7 +30,11 @@ update set.
 - onChange script on Asset tag
 - Checks the value matches `IT-` plus 5 digits, using a regular expression
 - Shows an inline error message if the format is wrong
-- 
+### 4. Business Rule: VIP caller urgency
+- Before-insert rule on Incident
+- If the caller is marked VIP, sets Urgency to High and adds a work note
+- Priority recalculates from Impact × Urgency
+-  
 ### 1. New fields on Incident
 - **Affected device** (choice: Laptop, Desktop, Phone, Printer, Other)
 - **Asset tag** (string)
@@ -46,6 +50,7 @@ update set.
 | New fields on Incident | Configuration | Standard dictionary fields; upgrade-safe |
 | UI Policy | Configuration | No-code; preferred over a Client Script for show/hide/mandatory |
 | Client Script | Custom | Format validation needs logic a UI Policy can't do |
+| Business Rule | Custom | Server-side logic based on the caller's record; must run regardless of how the incident is created (form, email, API) |
 
 ## Screenshots
 **Incident form with new hardware fields**
@@ -60,8 +65,14 @@ update set.
 **Client Script: condition and actions**
 ![Client Script record, showing the settings and the code](screenshots/04-client-script.png)
 
-**Client Script test: fields mandatory when Category is Hardware**
+**Client Script test: Incident form showing the red error under Asset tag**
 ![Incident form showing the red error under Asset tag](screenshots/05-client-script-test.png)
+
+**Business Rule: condition and actions**
+![Business Rule record, showing When to run and the script](screenshots/06-business-rule.png, 06-business-rule-script.png)
+
+**Business Rule test: VIP incident showing Urgency High and the work note**
+![VIP incident showing Urgency High and the work note](screenshots/07-business-rule-test.png, 07-business-rule-test-work-notes.png)
 
 ## Results
 *(To be completed when the project is finished.)*
