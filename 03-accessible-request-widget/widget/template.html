@@ -1,0 +1,25 @@
+<section class="mlr" aria-labelledby="mlr-heading">
+  <h2 id="mlr-heading" class="mlr__title">My laptop requests</h2>
+
+  <p ng-if="!c.data.requests.length" class="mlr__empty">
+    You have no laptop requests yet.
+    <a ng-href="?id=sc_cat_item&sys_id={{c.data.catItemId}}">Request a new laptop</a>
+  </p>
+
+  <ul ng-if="c.data.requests.length" class="mlr__list">
+    <li ng-repeat="r in c.data.requests" class="mlr__card">
+      <h3 class="mlr__number">
+        <a ng-href="?id=ticket&table=sc_req_item&sys_id={{r.sys_id}}">{{r.number}}</a>
+      </h3>
+      <p class="mlr__badge mlr__badge--{{r.status.key}}">
+        <span aria-hidden="true">{{c.icons[r.status.key]}}</span>
+        {{r.status.label}}
+      </p>
+      <dl class="mlr__details">
+        <div><dt>Model</dt><dd>{{r.model}}</dd></div>
+        <div><dt>Needed by</dt><dd>{{r.needed_by}}</dd></div>
+        <div><dt>Requested on</dt><dd>{{r.opened}}</dd></div>
+      </dl>
+    </li>
+  </ul>
+</section>

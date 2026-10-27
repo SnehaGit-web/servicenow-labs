@@ -1,0 +1,23 @@
+.mlr .mlr__title { font-size: 24px; font-weight: 600; color: #1a1a1a; margin: 0 0 16px; }
+.mlr .mlr__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.mlr .mlr__card { border: 1px solid #c9c9c9; border-radius: 8px; padding: 16px;
+                  background: #fff; color: #1a1a1a; font-size: 16px; }
+.mlr .mlr__number { font-size: 18px; margin: 0 0 8px; }
+.mlr .mlr__number a { font-size: 18px; color: #0b4f8a; text-decoration: underline; }
+.mlr a:focus-visible { outline: 3px solid #0b4f8a; outline-offset: 2px; }
+
+.mlr .mlr__badge { display: inline-block; margin: 0 0 12px; padding: 4px 12px;
+                   border-radius: 999px; font-weight: 600; font-size: 16px; }
+.mlr .mlr__badge--rejected { background: #fdecea; color: #8a1c12; }
+.mlr .mlr__badge--pending  { background: #fff4e5; color: #7a4a00; }
+.mlr .mlr__badge--approved { background: #e8f1fb; color: #0b4f8a; }
+.mlr .mlr__badge--complete { background: #e7f5ec; color: #1e6b35; }
+.mlr .mlr__badge--closed   { background: #f0f0f0; color: #3d3d3d; }
+
+.mlr .mlr__details { margin: 0; display: grid; gap: 4px; }
+.mlr .mlr__details div { display: flex; gap: 8px; }
+.mlr .mlr__details dt { font-weight: 600; min-width: 120px; color: #1a1a1a; }
+.mlr .mlr__details dd { margin: 0; color: #1a1a1a; }
+
+.mlr .mlr__empty { font-size: 16px; color: #1a1a1a; }
+.mlr .mlr__empty a { color: #0b4f8a; text-decoration: underline; }
