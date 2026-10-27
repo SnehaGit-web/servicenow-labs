@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-10-27 19:50:54">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Accessible Request Status Widget</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>fd9577772f44931034d3258a6fa4e38c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>98b280002fd4931034d3258a6fa4e3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_39e83bb72f44931034d3258a6fa4e399</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><aria_label/><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>My laptop requests - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="my_laptop_requests">a2a8773f2f44931034d3258a6fa4e3a2</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-27 19:08:08</sys_created_on><sys_id>39e83bb72f44931034d3258a6fa4e399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My laptop requests - Container 1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_39e83bb72f44931034d3258a6fa4e399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-27 19:08:08</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>399468440</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>14b280002fd4931034d3258a6fa4e3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec342ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>My laptop requests - Container 1</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>3de83bb7f0449310675566b4635dc89d</update_guid>
+<update_guid_history>3de83bb7f0449310675566b4635dc89d:399468440</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_row_b2493b7f2f44931034d3258a6fa4e3e7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="My laptop requests - Container 1">39e83bb72f44931034d3258a6fa4e399</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-27 19:09:50</sys_created_on><sys_id>b2493b7f2f44931034d3258a6fa4e3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_row_b2493b7f2f44931034d3258a6fa4e3e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-27 19:09:50</sys_updated_on></sp_row></record_update>]]></payload>
+<payload_hash>-427017183</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>18b280002fd4931034d3258a6fa4e3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec4d3590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Row</type>
+<update_domain>global</update_domain>
+<update_guid>7249bb7fc2449310a8344adecbfbe915</update_guid>
+<update_guid_history>7249bb7fc2449310a8344adecbfbe915:-427017183</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_container_e9397f3f2f44931034d3258a6fa4e3fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="DELETE"><aria_label/><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>My laptop requests - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="my_laptop_requests">a2a8773f2f44931034d3258a6fa4e3a2</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-27 19:09:29</sys_created_on><sys_id>e9397f3f2f44931034d3258a6fa4e3fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My laptop requests - Container 2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_container_e9397f3f2f44931034d3258a6fa4e3fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-27 19:09:29</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+<payload_hash>1377561483</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>58b280002fd4931034d3258a6fa4e3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec4a38c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>My laptop requests - Container 2</target_name>
+<type>Container</type>
+<update_domain>global</update_domain>
+<update_guid>7b393b7f01449310a1992bad0211ebe3</update_guid>
+<update_guid_history>7b393b7f01449310a1992bad0211ebe3:1377561483,a139bf3f304493107ece690001743600:-1486057</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_aac5f3b72f44931034d3258a6fa4e362</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function() {
+    var c = this;
+    c.icons = {
+        rejected: '✕',
+        pending:  '⏳',
+        approved: '✓',
+        complete: '✓',
+        closed:   '–'
+    };
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.mlr .mlr__title { font-size: 24px; font-weight: 600; color: #1a1a1a; margin: 0 0 16px; }&amp;#13;
+.mlr .mlr__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }&amp;#13;
+.mlr .mlr__card { border: 1px solid #c9c9c9; border-radius: 8px; padding: 16px;&amp;#13;
+                  background: #fff; color: #1a1a1a; font-size: 16px; }&amp;#13;
+.mlr .mlr__number { font-size: 18px; margin: 0 0 8px; }&amp;#13;
+.mlr .mlr__number a { font-size: 18px; color: #0b4f8a; text-decoration: underline; }&amp;#13;
+.mlr a:focus-visible { outline: 3px solid #0b4f8a; outline-offset: 2px; }&amp;#13;
+&amp;#13;
+.mlr .mlr__badge { display: inline-block; margin: 0 0 12px; padding: 4px 12px;&amp;#13;
+                   border-radius: 999px; font-weight: 600; font-size: 16px; }&amp;#13;
+.mlr .mlr__badge--rejected { background: #fdecea; color: #8a1c12; }&amp;#13;
+.mlr .mlr__badge--pending  { background: #fff4e5; color: #7a4a00; }&amp;#13;
+.mlr .mlr__badge--approved { background: #e8f1fb; color: #0b4f8a; }&amp;#13;
+.mlr .mlr__badge--complete { background: #e7f5ec; color: #1e6b35; }&amp;#13;
+.mlr .mlr__badge--closed   { background: #f0f0f0; color: #3d3d3d; }&amp;#13;
+&amp;#13;
+.mlr .mlr__details { margin: 0; display: grid; gap: 4px; }&amp;#13;
+.mlr .mlr__details div { display: flex; gap: 8px; }&amp;#13;
+.mlr .mlr__details dt { font-weight: 600; min-width: 120px; color: #1a1a1a; }&amp;#13;
+.mlr .mlr__details dd { margin: 0; color: #1a1a1a; }&amp;#13;
+.mlr .mlr__empty { font-size: 16px; color: #1a1a1a; }&amp;#13;
+.mlr .mlr__empty a { color: #0b4f8a; text-decoration: underline; }&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;my-laptop-requests&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;My Laptop Requests&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    data.requests = [];
+
+    // Link for the empty state: the catalog item's sys_id
+    var item = new GlideRecord('sc_cat_item');
+    if (item.get('name', 'Request a new laptop')) {
+        data.catItemId = item.getUniqueValue();
+    }
+
+    // GlideRecordSecure respects ACLs, so users only see what they're allowed to
+    var gr = new GlideRecordSecure('sc_req_item');
+    gr.addQuery('requested_for', gs.getUserID());
+    gr.addQuery('cat_item.name', 'Request a new laptop');
+    gr.orderByDesc('opened_at');
+    gr.setLimit(20);
+    gr.query();
+
+    while (gr.next()) {
+        data.requests.push({
+            sys_id: gr.getUniqueValue(),
+            number: gr.getValue('number'),
+            model: gr.variables.laptop_model.getDisplayValue(),
+            needed_by: gr.variables.needed_by.getDisplayValue(),
+            opened: gr.getDisplayValue('opened_at'),
+            status: getStatus(gr)
+        });
+    }
+
+    // One clear status per request, based on approval first, then state
+    function getStatus(rec) {
+        var approval = rec.getValue('approval');
+        var state = rec.getValue('state');
+        if (approval == 'rejected')  return { key: 'rejected', label: 'Rejected' };
+        if (approval == 'requested') return { key: 'pending',  label: 'Waiting for manager approval' };
+        if (state == '3')            return { key: 'complete', label: 'Completed' };
+        if (state == '4' || state == '7') return { key: 'closed', label: 'Closed' };
+        return { key: 'approved', label: 'Approved – being prepared' };
+    }
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-27 18:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;aac5f3b72f44931034d3258a6fa4e362&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Laptop Requests&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_aac5f3b72f44931034d3258a6fa4e362&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-27 19:39:42&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;section class="mlr" aria-labelledby="mlr-heading"&gt;
+  &lt;h2 id="mlr-heading" class="mlr__title"&gt;My laptop requests&lt;/h2&gt;
+
+  &lt;p ng-if="!c.data.requests.length" class="mlr__empty"&gt;
+    You have no laptop requests yet.
+    &lt;a ng-href="?id=sc_cat_item&amp;sys_id={{c.data.catItemId}}"&gt;Request a new laptop&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;ul ng-if="c.data.requests.length" class="mlr__list"&gt;
+    &lt;li ng-repeat="r in c.data.requests" class="mlr__card"&gt;
+      &lt;h3 class="mlr__number"&gt;
+        &lt;a ng-href="?id=ticket&amp;table=sc_req_item&amp;sys_id={{r.sys_id}}"&gt;{{r.number}}&lt;/a&gt;
+      &lt;/h3&gt;
+      &lt;p class="mlr__badge mlr__badge--{{r.status.key}}"&gt;
+        &lt;span aria-hidden="true"&gt;{{c.icons[r.status.key]}}&lt;/span&gt;
+        {{r.status.label}}
+      &lt;/p&gt;
+      &lt;dl class="mlr__details"&gt;
+        &lt;div&gt;&lt;dt&gt;Model&lt;/dt&gt;&lt;dd&gt;{{r.model}}&lt;/dd&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;dt&gt;Needed by&lt;/dt&gt;&lt;dd&gt;{{r.needed_by}}&lt;/dd&gt;&lt;/div&gt;
+        &lt;div&gt;&lt;dt&gt;Requested on&lt;/dt&gt;&lt;dd&gt;{{r.opened}}&lt;/dd&gt;&lt;/div&gt;
+      &lt;/dl&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;aac5f3b72f44931034d3258a6fa4e362&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-27 18:55:01&lt;/sys_created_on&gt;&lt;sys_id&gt;69e5b7f32f04931034d3258a6fa4e33c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-27 18:55:01&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>975598966</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>5cb280002fd4931034d3258a6fa4e3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ee029260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>My Laptop Requests</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>cc2000c86094931013cf4f1abcf38e91</update_guid>
+<update_guid_history>cc2000c86094931013cf4f1abcf38e91:975598966,25a7777b65449310f968684995a74a76:-1349518390,5937b33b61449310e735d070ac809f80:-445860027,995677f7a44493107ab196ffb2a45a52:1846851452,75e5b7b789449310151a55ce6c41008e:960930151</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_instance_4759bb7f2f44931034d3258a6fa4e31e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;be49bb7f2f44931034d3258a6fa4e316&lt;/sp_column&gt;&lt;sp_widget display_value="My Laptop Requests"&gt;aac5f3b72f44931034d3258a6fa4e362&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-27 19:10:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4759bb7f2f44931034d3258a6fa4e31e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_4759bb7f2f44931034d3258a6fa4e31e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-27 19:10:07&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4759bb7f2f44931034d3258a6fa4e31e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-830763443</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>9cb280002fd4931034d3258a6fa4e3dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec515b70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name/>
+<type>Instance</type>
+<update_domain>global</update_domain>
+<update_guid>8f593f7f8a449310ae2f0da20dd12521</update_guid>
+<update_guid_history>8f593f7f8a449310ae2f0da20dd12521:-830763443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_page_a2a8773f2f44931034d3258a6fa4e3a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>my_laptop_requests</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-27 19:07:17</sys_created_on><sys_id>a2a8773f2f44931034d3258a6fa4e3a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>my_laptop_requests</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_page_a2a8773f2f44931034d3258a6fa4e3a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-27 19:07:17</sys_updated_on><title>My laptop requests</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=a2a8773f2f44931034d3258a6fa4e3a2"/></record_update>]]></payload>
+<payload_hash>-279768419</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>d0b280002fd4931034d3258a6fa4e3de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec27be20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>my_laptop_requests</target_name>
+<type>Page</type>
+<update_domain>global</update_domain>
+<update_guid>91b8773f19449310c2b4d6f9ba3020dd</update_guid>
+<update_guid_history>91b8773f19449310c2b4d6f9ba3020dd:-279768419</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_column_be49bb7f2f44931034d3258a6fa4e316</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">b2493b7f2f44931034d3258a6fa4e3e7</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-27 19:09:50</sys_created_on><sys_id>be49bb7f2f44931034d3258a6fa4e316</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_column_be49bb7f2f44931034d3258a6fa4e316</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-27 19:09:50</sys_updated_on></sp_column></record_update>]]></payload>
+<payload_hash>-771912987</payload_hash>
+<remote_update_set display_value="Accessible Request Status Widget">98b280002fd4931034d3258a6fa4e3dc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-10-27 19:50:54</sys_created_on>
+<sys_id>dcb280002fd4931034d3258a6fa4e3dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a17ec4d3860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-10-27 19:50:54</sys_updated_on>
+<table/>
+<target_name>1</target_name>
+<type>Column</type>
+<update_domain>global</update_domain>
+<update_guid>3649bb7ffc449310969bfe1ee1e5951a</update_guid>
+<update_guid_history>3649bb7ffc449310969bfe1ee1e5951a:-771912987</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
