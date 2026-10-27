@@ -24,4 +24,4 @@ a test plan, screenshots, and the exported update set.
   decisions, test plans, update sets
 
 ## Certification
-ServiceNow Certified System Administrator (CSA): in progress
+ServiceNow Certified System Administrator (CSA): in progress, expected Nov 2026
